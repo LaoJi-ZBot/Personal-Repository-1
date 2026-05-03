@@ -98,9 +98,12 @@ set(PROJECT_SOURCES
     src/engine/Renderer/Mesh.cpp
     src/engine/Renderer/Texture.cpp
     src/engine/Math/MathUtils.cpp
+    src/engine/Audio/AudioEngine.cpp
+    src/engine/Audio/SoundBuffer.cpp
     # Game Core
     src/game/Core/Engine.cpp
     src/game/Core/GameLoop.cpp
+    src/game/AudioGen/SoundGenerator.cpp
 )
 
 # 添加 Glad 源文件
